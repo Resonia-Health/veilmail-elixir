@@ -12,7 +12,7 @@ defmodule VeilMail.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
-      description: "Official Elixir SDK for the Veil Mail email API",
+      description: "Official Elixir SDK for Veil Mail — secure transactional and marketing email with automatic PII protection. A drop-in alternative to Resend, SendGrid, Mailgun, and Postmark for Elixir and Phoenix.",
       docs: docs(),
       source_url: @source_url,
       homepage_url: "https://veilmail.xyz"
